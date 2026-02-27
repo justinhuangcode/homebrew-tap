@@ -5,7 +5,7 @@
 [![homebrew-tap](https://img.shields.io/badge/brew_tap-justinhuangcode%2Ftap-orange?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/justinhuangcode/homebrew-tap)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-Homebrew formulae for [justinhuangcode](https://github.com/justinhuangcode) projects.
+All my CLI tools, one fast brew install away.
 
 ## Install
 
@@ -18,8 +18,8 @@ brew install <formula>
 
 | Formula | Version | Description |
 |---------|---------|-------------|
-| [browsercli](https://github.com/justinhuangcode/browsercli) | 1.0.4 | A local-first browser rendering CLI for AI agents and developers |
-| [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.0 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection |
+| [browsercli](https://github.com/justinhuangcode/browsercli) | 1.0.4 | A local-first browser rendering CLI for live preview, browser control, and DevTools capture. |
+| [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.0 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. |
 
 ### browsercli
 
@@ -27,7 +27,7 @@ brew install <formula>
 brew install justinhuangcode/tap/browsercli
 ```
 
-A local-first browser rendering CLI for AI agents and developers. Write HTML/CSS/JS in a local directory and have it rendered in a real Chromium browser with full DevTools control.
+A local-first browser rendering CLI for live preview, browser control, and DevTools capture. Write HTML/CSS/JS in a local directory and have it rendered in a real Chromium browser with full DevTools control.
 
 ### camgrab
 
