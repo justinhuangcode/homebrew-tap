@@ -12,20 +12,20 @@ class Camgrab < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/justinhuangcode/camgrab/releases/download/v#{version}/camgrab-v#{version}-macos-arm64.tar.gz"
-      sha256 "2205b213bddd32ba093bfe947fde5b6bd7c85394adef13708866cdb4d0fd3909"
+      sha256 "c686a23c836596d3eaab74fa1ee1bf4220bf6fcda8a592e5e07c79484d838f71"
     else
       url "https://github.com/justinhuangcode/camgrab/releases/download/v#{version}/camgrab-v#{version}-macos-x86_64.tar.gz"
-      sha256 "085fd8dc9101ebc66cbbfccdcd032354552164757462ab77fda2bda9d92069ba"
+      sha256 "9ad86aa987f2b4124b654fd8049466a779ac8f554b18f6b8fabcd42f345bf999"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/justinhuangcode/camgrab/releases/download/v#{version}/camgrab-v#{version}-linux-arm64.tar.gz"
-      sha256 "8c70a6cdabecedca3e615b593fe3e94bcd3d24f9396dc0bd79638e4aa84b63b3"
+      sha256 "216d0e80d179be15493a2c894fbe98e22c0518dfb9d0cf184f3cfa56adc7fb63"
     else
       url "https://github.com/justinhuangcode/camgrab/releases/download/v#{version}/camgrab-v#{version}-linux-x86_64.tar.gz"
-      sha256 "bdc011347d7ce110af245e52806e1dcd477b2818d5b95cd30a97600a3a26fc2e"
+      sha256 "ba1e69896f428c8c94808f3220e757b1b4ff4568270b4c6ca8ac92a1295c5c43"
     end
   end
 
