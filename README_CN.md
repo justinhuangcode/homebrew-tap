@@ -20,6 +20,8 @@ brew install <formula>
 |------|------|------|
 | [browsercli](https://github.com/justinhuangcode/browsercli) | 1.0.4 | 本地优先的浏览器渲染命令行工具，支持实时预览、浏览器控制与 DevTools 数据采集。 |
 | [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.1 | 高速单二进制 IP 摄像头命令行工具，支持抓拍、录制与运动检测。 |
+| [mdansi](https://github.com/justinhuangcode/mdANSI) | 0.1.0 | 极速 Markdown 转 ANSI 命令行工具，支持终端渲染、LLM 流式输出与语法高亮。 |
+| [termpulse](https://github.com/justinhuangcode/termpulse) | 0.1.0 | 原生终端进度指示命令行工具，支持智能检测、优雅回退与零配置。 |
 
 ### browsercli
 
@@ -36,3 +38,19 @@ brew install justinhuangcode/tap/camgrab
 ```
 
 高速单二进制 IP 摄像头命令行工具，支持抓拍、录制与运动检测。零外部依赖，无需安装 ffmpeg。
+
+### mdansi
+
+```bash
+brew install justinhuangcode/tap/mdansi
+```
+
+极速 Markdown 转 ANSI 命令行工具，支持终端渲染、LLM 流式输出与语法高亮。内置 200+ 种编程语言语法高亮、LLM 流式输出模式、TOML 主题配置。
+
+### termpulse
+
+```bash
+brew install justinhuangcode/tap/termpulse
+```
+
+原生终端进度指示命令行工具，支持智能检测、优雅回退与零配置。自动检测 10+ 终端，三级降级（OSC 9;4 > ASCII > 静默），tmux DCS 透传。
