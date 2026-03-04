@@ -22,6 +22,7 @@ brew install <formula>
 | [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.1 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. |
 | [mdansi](https://github.com/justinhuangcode/mdANSI) | 0.1.0 | A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. |
 | [termpulse](https://github.com/justinhuangcode/termpulse) | 0.1.0 | A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. |
+| [tmuxpulse](https://github.com/justinhuangcode/tmuxpulse) | 0.1.0 | A real-time, event-driven tmux TUI for session monitoring, pane search, and stale cleanup. |
 
 ### browsercli
 
@@ -54,3 +55,11 @@ brew install justinhuangcode/tap/termpulse
 ```
 
 A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. Auto-detects 10+ terminals, three-tier fallback (OSC 9;4 > ASCII > silent), tmux DCS passthrough.
+
+### tmuxpulse
+
+```bash
+brew install justinhuangcode/tap/tmuxpulse
+```
+
+A real-time, event-driven tmux TUI for session monitoring, pane search, and stale cleanup. Live session tree, fuzzy pane search, and automatic stale session detection.
