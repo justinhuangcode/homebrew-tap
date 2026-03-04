@@ -4,7 +4,7 @@
 # This formula is auto-updated by the release workflow.
 # Manual edits will be overwritten on next release.
 class Camgrab < Formula
-  desc "A modern CLI tool for capturing snapshots, recording clips, and managing RTSP/ONVIF cameras"
+  desc "A fast, single-binary IP camera CLI for snapshots, recording, and motion detection"
   homepage "https://github.com/justinhuangcode/camgrab"
   license "MIT"
   version "1.0.1"

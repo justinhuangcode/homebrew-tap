@@ -4,7 +4,7 @@
 # This formula is auto-updated by the release workflow.
 # Manual edits will be overwritten on next release.
 class Browsercli < Formula
-  desc "A browser visual workspace for AI agents"
+  desc "A local-first browser rendering CLI for live preview, browser control, and DevTools capture"
   homepage "https://github.com/justinhuangcode/browsercli"
   license "MIT"
   version "1.0.4"
