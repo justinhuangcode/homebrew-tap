@@ -19,6 +19,7 @@ brew install <formula>
 | Formula | Version | Description |
 |---------|---------|-------------|
 | [browsercli](https://github.com/justinhuangcode/browsercli) | 1.0.4 | A local-first browser rendering CLI for live preview, browser control, and DevTools capture. |
+| [browserx](https://github.com/justinhuangcode/browserx) | 0.1.0 | A cross-platform browser cookie extraction CLI for session replay, authentication, and automation. |
 | [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.1 | A fast, single-binary IP camera CLI for snapshots, recording, and motion detection. |
 | [mdansi](https://github.com/justinhuangcode/mdANSI) | 0.1.0 | A blazing-fast Markdown-to-ANSI CLI for terminal rendering, LLM streaming, and syntax highlighting. |
 | [termpulse](https://github.com/justinhuangcode/termpulse) | 0.1.0 | A native terminal progress indicator CLI for smart detection, graceful fallback, and zero configuration. |
@@ -32,6 +33,14 @@ brew install justinhuangcode/tap/browsercli
 ```
 
 A local-first browser rendering CLI for live preview, browser control, and DevTools capture. Write HTML/CSS/JS in a local directory and have it rendered in a real Chromium browser with full DevTools control.
+
+### browserx
+
+```bash
+brew install justinhuangcode/tap/browserx
+```
+
+A cross-platform browser cookie extraction CLI for session replay, authentication, and automation. Extracts cookies from 9 browsers, decrypts with native OS APIs, and outputs in 5 formats.
 
 ### camgrab
 
