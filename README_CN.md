@@ -23,6 +23,7 @@ brew install <formula>
 | [mdansi](https://github.com/justinhuangcode/mdANSI) | 0.1.0 | 极速 Markdown 转 ANSI 命令行工具，支持终端渲染、LLM 流式输出与语法高亮。 |
 | [termpulse](https://github.com/justinhuangcode/termpulse) | 0.1.0 | 原生终端进度指示命令行工具，支持智能检测、优雅回退与零配置。 |
 | [tmuxpulse](https://github.com/justinhuangcode/tmuxpulse) | 0.1.0 | 实时事件驱动的 tmux 终端界面工具，支持会话监控、跨面板搜索与闲置清理。 |
+| [tokencost](https://github.com/justinhuangcode/tokencost) | 0.1.0 | 统一的 LLM token 成本命令行工具，支持用量归一化、成本估算与多供应商定价。 |
 
 ### browsercli
 
@@ -63,3 +64,11 @@ brew install justinhuangcode/tap/tmuxpulse
 ```
 
 实时事件驱动的 tmux 终端界面工具，支持会话监控、跨面板搜索与闲置清理。实时会话树、模糊面板搜索、自动检测闲置会话。
+
+### tokencost
+
+```bash
+brew install justinhuangcode/tap/tokencost
+```
+
+统一的 LLM token 成本命令行工具，支持用量归一化、成本估算与多供应商定价。支持 OpenAI、Anthropic、Google 等多家供应商，统一接口一站式查询。
