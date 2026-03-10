@@ -3,7 +3,7 @@
 
 # This formula is auto-updated by the release workflow.
 # Manual edits will be overwritten on next release.
-class Ironclaw < Formula
+class IronclawZh < Formula
   desc "Secure personal AI assistant - Chinese-localized distribution (ironclaw-zh)"
   homepage "https://github.com/justinhuangcode/ironclaw-zh"
   license "MIT"
