@@ -22,6 +22,7 @@ brew install <formula>
 | [browserx](https://github.com/justinhuangcode/browserx) | 0.1.0 | 跨平台浏览器 Cookie 提取命令行工具，支持会话重放、身份认证与自动化。 |
 | [browsertap](https://github.com/justinhuangcode/browsertap) | 0.1.0 | 实时浏览器控制命令行工具，支持活跃标签捕获、DOM 交互与 Agent 自动化。 |
 | [camgrab](https://github.com/justinhuangcode/camgrab) | 1.0.1 | 高速单二进制 IP 摄像头命令行工具，支持抓拍、录制与运动检测。 |
+| [ironclaw-zh](https://github.com/justinhuangcode/ironclaw-zh) | 0.16.1-zh.1 | 安全可靠的个人 AI 助手——中文本地化发行版，专注本地优先部署与安全自托管。 |
 | [mdansi](https://github.com/justinhuangcode/mdANSI) | 0.1.0 | 极速 Markdown 转 ANSI 命令行工具，支持终端渲染、LLM 流式输出与语法高亮。 |
 | [termpulse](https://github.com/justinhuangcode/termpulse) | 0.1.0 | 原生终端进度指示命令行工具，支持智能检测、优雅回退与零配置。 |
 | [tmuxpulse](https://github.com/justinhuangcode/tmuxpulse) | 0.1.0 | 实时事件驱动的 tmux 终端界面工具，支持会话监控、跨面板搜索与闲置清理。 |
@@ -58,6 +59,14 @@ brew install justinhuangcode/tap/camgrab
 ```
 
 高速单二进制 IP 摄像头命令行工具，支持抓拍、录制与运动检测。零外部依赖，无需安装 ffmpeg。
+
+### ironclaw-zh
+
+```bash
+brew install justinhuangcode/tap/ironclaw-zh
+```
+
+安全可靠的个人 AI 助手——中文本地化发行版，专注本地优先部署与安全自托管。基于 [nearai/ironclaw](https://github.com/nearai/ironclaw) 的社区维护版本，提供完整中文本地化与本地优先默认配置。
 
 ### mdansi
 
